@@ -1,5 +1,13 @@
 package com.workintech.s19d2.entity;
 
+
+//Bu Account sınıfı, bankacılık uygulamasındaki temel hesap varlığını temsil eder.
+// Member ve Role sınıflarından farklı olarak, UserDetails veya GrantedAuthority gibi Spring Security arayüzlerini implement etmez,
+// çünkü doğrudan kimlik doğrulama veya yetkilendirme süreçlerinde kullanılmaz.
+// Daha çok uygulamanın iş mantığı katmanında kullanılacak basit bir veri varlığıdır.
+
+
+
 // Gerekli JPA ve Lombok kütüphanelerinden importlar
 import jakarta.persistence.*;
 import lombok.Data; // Getter, Setter, toString, equals ve hashCode metotlarını otomatik oluşturur
